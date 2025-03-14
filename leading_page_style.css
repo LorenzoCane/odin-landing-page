@@ -4,8 +4,16 @@
     font-family: Roboto;
 }
 
-.header-container {
+.header-container, 
+.info-container,
+.quote-container,
+.call-act-container,
+.footer{
     display: flex;
+}
+
+.header-container {
+
     padding: 10px;
     background-color: #1f2937;
     
