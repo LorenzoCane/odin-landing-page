@@ -4,18 +4,29 @@
     font-family: Roboto;
 }
 
-.header {
+.header-container {
+    display: flex;
+    padding: 10px;
     background-color: #1f2937;
     
 }
 
-.header .logo{
+.logo{
+    margin: 0;
+    flex: 1;
+    align-items: left;
+    justify-content: left;
     color: #f9faf8;
     font-style: bold;
     font-size: 24px;
+    
 }
 
-.header .link{
+.link{
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: right;
+    justify-content: right;
     color: #e5e7eb;
     font-size: 18px;
 }
