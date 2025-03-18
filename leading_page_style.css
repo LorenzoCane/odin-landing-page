@@ -1,7 +1,9 @@
-* {
-    padding: 0px;
-    margin: 0px;
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
     font-family: Roboto;
+    flex-direction: column;
 }
 
 
@@ -11,7 +13,7 @@
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 50px;
-    height: 300px;
+  
     background-color: #1f2937;
  
     
@@ -19,43 +21,42 @@
 
 .header-top{
     display: flex;
-    height: 20px;
+    justify-content: space-between;
 }
 
 .logo{
-    flex: 1 0 auto;
     align-items: left;
     justify-content: left;
     color: #f9faf8;
-    font-weight: 800;
-    font-size: 24px;
-    
+    font-weight: 900;
+    font-size: 24px;    
 }
 
-.sec-text{
-    flex: 0 1 auto ;
-    margin : 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    align-items: right;
-    justify-content: right;
+ul{
+    display: flex;
+    gap: 32px;
     color: #e5e7eb;
     font-size: 18px;
-    font-weight: 300;
+    align-content: right;
+    text-decoration: none;
+    list-style-type: none;
+
 }
 
 .header-bottom{
     display: flex;
     flex-direction: row;
-    padding-top: 70px;
+    flex:1 0 auto ;
+    margin-top: 150px;
 }
 
 .pres{
     display: column;
+    width: 500px;
 }
 .main-t{
-    font-size: 48px;
     color: #f9faf8;
+    font-size: 48px;
     font-weight: 900;
 }
 
@@ -65,6 +66,7 @@ p{
 }
 
 button{
+    margin-top: 20px;
     background-color: #3882f6;
     color: #e5e7eb;
     font-weight: 800;
@@ -74,7 +76,9 @@ button{
 }
 
 .main-pict{
-    width: 240px;
+    padding-left: 30px;
+    width: 500px;
+    
 }
 
 
