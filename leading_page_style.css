@@ -11,7 +11,7 @@ body {
 .info-container,
 .quote-container,
 .call-act-container,
-footer {
+.footer {
     display: flex;
     flex-direction: column;
     padding-left: 250px;
@@ -52,13 +52,14 @@ ul{
 .header-bottom{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex:1 0 auto ;
     margin-top: 150px;
 }
 
 .pres{
     display: column;
-    width: 500px;
+    width: 600px;
 }
 .main-t{
     color: #f9faf8;
@@ -76,14 +77,15 @@ button{
     background-color: #3882f6;
     color: #e5e7eb;
     font-weight: 800;
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
+    border: #3882f6;
     border-radius: 15px;
 }
 
 .main-pict{
     padding-left: 30px;
-    width: 500px;
+    width: 600px;
     
 }
 
@@ -115,7 +117,7 @@ button{
 .info{
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 250px;
     margin: 30px;
     align-content: center;
 }
@@ -128,8 +130,89 @@ button{
 }
 
 .subtext{
+    margin-top: 20px;
     color: #1f2937;
     font-weight: 300;
+    text-align: center;
+}
+
+.quote-container{
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+
+.quote{
+    margin-left: 30px;
+    padding-left: 80px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: left;
+    width: 1090px;
+}
+
+.author-quote{
+    margin-right: 30px;
+    padding-right: 80px;
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: right;
+}
+
+.call-act-container{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 110px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    background-color: #3882f6;
+}
+
+.call{
+    text-align: left;
+    justify-items: space-between;
+    padding-top: 50px;
+}
+
+.call-header{
+    font-size: 24px;
+    font-weight: 800;
+    color: #e5e7eb;
+}
+
+.call .subtext{
+    font-size: 20px;
+    color: #e5e7eb;
+
+}
+
+.call-act-container button{
+    margin-top: 60px;
+    border: 5px solid transparent;
+    border-color: #e5e7eb;
+    padding: 3px;
+    font-weight: 700;
+}
+
+
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #1f2937;
+}
+
+.footer-text{
+    color: #e5e7eb;
+    font-size: 14px;
     text-align: center;
 }
 
