@@ -5,4 +5,5 @@ In this folder are contained the files for the project "Recipes" that has to be 
 In this project I will create an entire web page based on a given design, using skills and knownledge about color, class, CSS and HTML intercomunication and FLeabox usage.
 
 Images credit: 
-main picture: Harold Vasquez,  https://www.pexels.com/photo/lines-of-code-2653362/
+- main picture: Pexels, https://www.pexels.com/photo/turned-on-computer-monitor-displaying-text-270360/
+- sec pictures : Petr Ganaj, https://www.pexels.com/photo/adorable-prairie-dog-with-open-mouth-in-zoo-4457973/
