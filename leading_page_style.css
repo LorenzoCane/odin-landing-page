@@ -38,7 +38,7 @@ body {
     font-size: 24px;    
 }
 
-ul{
+ul, a{
     display: flex;
     gap: 32px;
     color: #e5e7eb;
@@ -46,6 +46,12 @@ ul{
     align-content: right;
     text-decoration: none;
     list-style-type: none;
+
+}
+
+a{
+    text-decoration: underline;
+    cursor: pointer;
 
 }
 
@@ -81,7 +87,15 @@ button{
     height: 50px;
     border: #3882f6;
     border-radius: 15px;
+    cursor: pointer;
 }
+
+button:hover{
+    background-color: #e5e7eb;
+    color: #3882f6; 
+
+}
+
 
 .main-pict{
     padding-left: 30px;
